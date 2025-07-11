@@ -29,6 +29,7 @@ table 50001 "Expense Line"
         {
             DataClassification = ToBeClassified;
             Caption = 'Description';
+            TableRelation = "Expense Header"."Description";
         }
     }
 
