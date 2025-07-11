@@ -32,6 +32,12 @@ table 50000 "Expense Header"
             DataClassification = ToBeClassified;
             Caption = 'Description';
         }
+        field(5; "Approved Amount"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Approved Amount';
+        }
+
     }
 
     keys
