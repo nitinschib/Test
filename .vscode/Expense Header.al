@@ -37,6 +37,11 @@ table 50000 "Expense Header"
             DataClassification = ToBeClassified;
             Caption = 'Approved Amount';
         }
+        field(6; "Status"; Enum "Expense Status")
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Status';
+        }
 
     }
 
