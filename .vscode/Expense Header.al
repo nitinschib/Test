@@ -42,7 +42,11 @@ table 50000 "Expense Header"
             DataClassification = ToBeClassified;
             Caption = 'Status';
         }
-
+        field(7; "Employee ID"; Code[20])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Employee ID';
+        }
     }
 
     keys
